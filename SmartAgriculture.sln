@@ -5,9 +5,24 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25969288-88A0-4B6B-BE15-B705C08369A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAgriculture.API", "SmartAgriculture.API\SmartAgriculture.API.csproj", "{1F51B37D-2DE0-4DD2-862F-9666C920783E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F51B37D-2DE0-4DD2-862F-9666C920783E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F51B37D-2DE0-4DD2-862F-9666C920783E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F51B37D-2DE0-4DD2-862F-9666C920783E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F51B37D-2DE0-4DD2-862F-9666C920783E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F51B37D-2DE0-4DD2-862F-9666C920783E} = {25969288-88A0-4B6B-BE15-B705C08369A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70652687-DA02-4380-B734-077327AAA72E}
