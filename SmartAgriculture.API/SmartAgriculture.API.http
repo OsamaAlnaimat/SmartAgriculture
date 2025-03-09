@@ -1,6 +1,10 @@
-@SmartAgriculture.API_HostAddress = http://localhost:5165
+@SmartAgriculture.API_HostAddress = http://localhost:7006
 
 GET {{SmartAgriculture.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+
+GET {{SmartAgriculture.API_HostAddress}}/weatherforecast/osama
+Accept: application/json

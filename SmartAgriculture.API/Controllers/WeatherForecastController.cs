@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SmartAgriculture.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")] 
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -28,6 +28,15 @@ namespace SmartAgriculture.API.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet]
+        [Route("osama")]
+        public WeatherForecast osy()
+        {
+
+            Response.StatusCode = 200;
+            return null;
         }
     }
 }
