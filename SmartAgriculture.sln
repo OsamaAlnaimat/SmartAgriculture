@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25969288-88A0-4B6B-BE15-B705C08369A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartAgriculture.API", "SmartAgriculture.API\SmartAgriculture.API.csproj", "{1F51B37D-2DE0-4DD2-862F-9666C920783E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAgriculture.API", "SmartAgriculture.API\SmartAgriculture.API.csproj", "{1F51B37D-2DE0-4DD2-862F-9666C920783E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9C0909F7-1FAC-477B-B068-4E9699ACC1B7}"
 EndProject
@@ -13,13 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{84F3E64B-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1CC0A431-38D1-4FE1-BC01-04BC657811AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartAgriculture.Domain", "SmartAgriculture.Domain\SmartAgriculture.Domain.csproj", "{C0E39397-B269-42E6-9D78-26D42B4BAE1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAgriculture.Domain", "SmartAgriculture.Domain\SmartAgriculture.Domain.csproj", "{C0E39397-B269-42E6-9D78-26D42B4BAE1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartAgriculture.Application", "SmartAgriculture.Application\SmartAgriculture.Application.csproj", "{2A6D2A37-37B9-4695-AAA5-82F46F23BC07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAgriculture.Application", "SmartAgriculture.Application\SmartAgriculture.Application.csproj", "{2A6D2A37-37B9-4695-AAA5-82F46F23BC07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartAgriculture.Infrastructure", "SmartAgriculture.Infrastructure\SmartAgriculture.Infrastructure.csproj", "{167C2245-F448-4239-AC32-6DB5629D10A4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jjj", "jjj", "{CD0C0E54-271F-494C-B216-D277EBBB2CD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAgriculture.Infrastructure", "SmartAgriculture.Infrastructure\SmartAgriculture.Infrastructure.csproj", "{167C2245-F448-4239-AC32-6DB5629D10A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
